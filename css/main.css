@@ -1,0 +1,449 @@
+body
+{
+ background-image: url('../img/wall/7.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+
+#logo
+{
+  width:150px;height:100px;
+  background-color: transparent;
+  position: absolute;
+  top: 5px;
+  left: -2px;
+  z-index: 0;
+}
+
+#wall
+{
+    position: relative;
+    background-color: #525659;
+    margin: auto;
+    width: 80%;
+    float: inherit;
+    top: 700px;
+    z-index: 2;
+    border-radius: 30px;
+}
+
+
+#menu
+{
+  width:82%;height:110px;
+  background-color: #00010D;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.menu-item
+{
+  float: left;
+  color: white;
+  padding: 45px;
+}
+
+.menu-manage
+{
+  float: left;
+  color: white;
+  padding-left: 15px;
+  padding-top: 45px;
+}
+
+.menu-icon
+{
+  width:40px;height:40px;
+  float: left;
+  margin-top: -15px;
+}
+
+#main-slider
+{
+
+}
+
+.image-slider
+{
+  margin-left: 30px; width: 96%; height: 200px;
+}
+
+.title-slider
+{
+  color: white; position: absolute; top: 130px; left: 80px;
+}
+.text-slider
+{
+  color: white; position: absolute; top: 200px; left: 80px;
+}
+
+#content
+{
+    position: relative;
+    margin: auto;
+    background-color: gray;
+    width: 96%;
+    margin-top: 5px;
+}
+
+.item
+{
+  float: left;
+  position: relative;
+  width: 250px; height: 280px;
+  background-color: #00010D;
+  margin-top: 20px;
+  margin-left: 34px;
+  border-radius: 10px;
+}
+
+.item-image
+{
+  width: 150px; height: 150px;
+  padding-left: 50px;
+}
+
+.item-text
+{
+  padding-left: 20px;
+  color: white;
+}
+
+.dontselectme
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.platform-icon
+{
+  width: 16px;height: 16px;
+}
+
+
+
+
+
+
+.item-show
+{
+  visibility: hidden;
+  float: left;
+  width: 60%; height: 540px;
+  background-color: #00010D;
+  border-radius: 10px;
+  z-index: 10;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.closer-itemshow
+{
+  visibility: hidden;
+  width: 100%; height: 100%;
+  background-color: transparent;
+  z-index: 9;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+}
+
+#icon-close-item-show
+{
+  position: fixed;
+  top: 0%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  float: right;
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.item-image-show
+{
+  width: 150px; height: 150px;
+
+  padding-left: 50px;
+}
+
+.item-text-show
+{
+  padding-left: 20px;
+  color: white;
+}
+
+.platform-icon-show
+{
+  width: 16px;height: 16px;
+  float: left;
+  margin-top: 2px;
+
+}
+
+#platforms-app
+{
+  float: left;
+}
+
+
+.platform-icon
+{
+  width: 16px;height: 16px;
+  margin-top: 4px;
+}
+
+#slider-show-app
+{
+  float: right;
+  position: relative;
+  width: 900px;
+  height: 540px;
+  border-radius: 10px;
+}
+#slider-manager-app
+{
+  float: right;
+  position: absolute;
+  width: 900px;
+  height: 540px;
+  border-radius: 10px;
+  background-color: transparent;
+  right: 1px;
+}
+#slider-right-app
+{
+  float: right;
+  position: absolute;
+  width: 50px;
+  height: 540px;
+  border-radius: 10px;
+  background-color: rgba(141, 147, 48, 0.1);
+  right: 1px;
+}
+.slider-right-text
+{
+  padding-top: 200px;
+  padding-left: 0px;
+  color: rgba(219, 202, 133,1);
+  font-size: 50px;
+}
+
+#slider-left-app
+{
+  float: left;
+  position: absolute;
+  width: 50px;
+  height: 540px;
+  border-radius: 10px;
+  background-color: rgba(141, 147, 48, 0.1);
+  left: 1px;
+}
+.slider-left-text
+{
+  padding-top: 200px;
+  padding-left: 10px;
+  color: rgba(219, 202, 133,1);
+  font-size: 50px;
+}
+
+#download-code
+{
+  width: 200px;
+  height: 40px;
+  background-color: blue;
+  margin-left: 20px;
+  margin-top: 30px;
+  color: white;
+}
+#download-app
+{
+  width: 200px;
+  height: 40px;
+  background-color: red;
+  margin-left: 20px;
+  margin-top: 75px;
+  color: white;
+}
+
+.text-download-button
+{
+  padding-left: 36px;
+  padding-top: 9px;
+}
+
+
+
+
+
+
+#author-mail-app
+{
+  color: white;
+}
+
+.simcard
+{
+  width: 80%; height: 50px;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+.contact-name
+{
+  position: relative;
+  float: left;
+  color: white;
+  font-weight: normal;
+  padding-left: 50px;
+  padding-top: 0px;
+}
+.contact-number
+{
+  float: left;
+  position: relative;
+  color: white;
+  font-weight: normal;
+  padding-left: 300px;
+  padding-top: 0px;
+}
+
+.contact-comment
+{
+  float: left;
+  position: relative;
+  color: yellow;
+  font-weight: normal;
+  padding-left: 200px;
+  padding-top: 0px;
+}
+
+
+
+
+.links
+{
+  width: 95%; height: 50px;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
+.link-tag
+{
+  position: relative;
+  float: left;
+  color: white;
+  font-weight: normal;
+  padding-left: 30px;
+  padding-top: 0px;
+}
+
+.link-url
+{
+  float: left;
+  position: relative;
+  color: white;
+  font-weight: normal;
+  padding-left: 10px;
+  padding-top: 0px;
+}
+
+.link-comment
+{
+  float: left;
+  position: relative;
+  color: yellow;
+  font-weight: normal;
+  padding-left: 10px;
+  padding-top: 0px;
+}
+
+
+
+#fake
+{
+  width: 99%;
+  height: 99%;
+  margin-left: 5px;
+  border-width: 0px;
+}
+
+.add-app-left-side
+{
+  position: absolute;
+  left: 1px;
+  width: 450px;
+  height: 610px;
+  top: 0px;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.style-left-inputs
+{
+  position: absolute;
+  left: 200px;
+  margin-top: -8px;
+}
+
+.button-style
+{
+  margin-left:  80px;
+}
+
+
+/* mange.php -> css */
+.manage-style-basebox
+{
+  background-color: #00010D;
+  color:white;
+  width: 90%;
+  height: 750px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.text-manage-style-basebox
+{
+  padding-top: 10px;
+  padding-left: 45%;
+}
+
+.button-style-manage
+{
+  border-radius: 15px;
+  float: left;
+  position: relative;
+  margin-left: 100px;
+  margin-top: 15px;
+  width: 300px;
+  height: 115px;
+  background-color: gray;
+  color: black;
+}
+.image-button-manage
+{
+  position: relative;
+  float: left;
+  width: 80px;
+  height: 80px;
+  padding-top: 15px;
+}
+.text-button-manage
+{
+  position: relative;
+  margin: auto;
+  padding-top: 50px;
+}
